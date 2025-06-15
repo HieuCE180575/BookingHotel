@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+label.error,
+.errorLogin {
+    color: red;
+    text-align: center;
+}
+
+.heading {
+    text-align: center;
+}
+
+/* Form Login */
+.myLoginForm {
+    z-index: 1;
+    max-width: 70%;
+    margin: 20vh auto;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.myLoginForm div {
+    margin-top: 1vh;
+}
+
+
+.myLoginForm .heading {
+    text-align: center;
+
+}
+
+#btnLogin {
+    margin-top: 2vh;
+}
+
+.loginBody {
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* z-index: -1; */
+    /* Put it behind the content */
+}
+
+
+#logo {
+    width: 7vw;
+    padding-right: 10px;
+}
+
+.captionLogo {
+    color: rgb(0, 0, 0);
+}
+
+.sloganLogo {
+    text-align: center;
+}
+
+/* Index */
+.bodyHomePage {
+    background-image: url('../img/background_homepage.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
